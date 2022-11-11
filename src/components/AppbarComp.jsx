@@ -24,7 +24,7 @@ function AppbarComp() {
   };
 
   return (
-    <AppBar position="static" color="success">
+    <AppBar position="static" color="secondary">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img

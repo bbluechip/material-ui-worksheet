@@ -10,7 +10,7 @@ const TextFieldComp = () => {
   return (
     <>
       <Container>
-        <Typography align="center" mt={4} variant="h4" color="error">
+        <Typography align="center" mt={4} variant="h4" color="secondary">
           TEXT FIELD
         </Typography>
 
@@ -35,7 +35,11 @@ const TextFieldComp = () => {
             helperText={error && "Incorrect password"}
           />
 
-          <Button variant="contained" color="warning" sx={{ mt: 3 }}>
+          <Button
+            variant="contained"
+            color="secondary"
+            sx={{ mt: 3, backgroundColor: "secondary.dark" }}
+          >
             Submit
           </Button>
         </Box>
