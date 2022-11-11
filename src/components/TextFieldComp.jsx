@@ -3,10 +3,9 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
-import { useState } from "react";
 
 const TextFieldComp = () => {
-  const [error, setError] = useState(false);
+  const error = false;
 
   return (
     <>
